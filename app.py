@@ -4,7 +4,7 @@ server = Flask(__name__)
 
 @server.route("/")
 def welcome():
-    return "Welcome to devopswithcloud training - today yet to start"
+    return "Welcome to devopswithcloud training - yesterday"
 
 @server.route('/openshift')
 def hello():
